@@ -37,6 +37,17 @@ public class HelloWorld {
 //        System.out.println(name);
 //        sc.close();
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your name:");
+        String name = sc.nextLine();
+        System.out.print("Enter your age:");
+        int age = sc.nextInt();
+
+        System.out.print("Enter your address:");
+        String address = sc.nextLine();
+        System.out.println(address);
+        System.out.print("name: " + name + "Age" + age + "Address: " + address);
+
 
 
 
