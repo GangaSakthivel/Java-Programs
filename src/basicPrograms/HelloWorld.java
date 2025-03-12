@@ -1,4 +1,7 @@
 package basicPrograms;
+import java.lang.System;
+import java.util.Scanner;
+
 
 public class HelloWorld {
     public static void main(String[] args) {
@@ -24,5 +27,19 @@ public class HelloWorld {
 //        System.out.println("Name: " + salary);
 //        System.out.println("Grade: "+ Grade);
 //        System.out.println("Name: " + Employed);
+
+//         Scanner sc = new Scanner(System.in);
+////        System.out.print("Enter the number: ");
+////         int number = sc.nextInt();
+////        System.out.println("The number is:" + number);
+//        System.out.println("Enter your name: ");
+//        String name = sc.nextLine();
+//        System.out.println(name);
+//        sc.close();
+
+
+
+
+
     }
 }
