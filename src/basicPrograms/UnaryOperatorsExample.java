@@ -63,6 +63,14 @@ public class UnaryOperatorsExample {
         System.out.println(++y);
         System.out.println(y);
 
+        int z = 5;
+
+        System.out.println(z++); //
+        System.out.println(z++); //7
+        System.out.println(++z); //6
+        System.out.println(z);   //7
+
+
     }
 
 }
