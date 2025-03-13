@@ -44,8 +44,14 @@ public class Three {
 //        int b = -10;
 //        System.out.println(b);
 
+        Float number = 13.483494f;
+        double numberTwo = 13.30442394324;
+        System.out.println(number);
+        System.out.println(numberTwo);
 
 
+        String name = "Ganga";
+        System.out.println(name.charAt(1));
 
 
     }
