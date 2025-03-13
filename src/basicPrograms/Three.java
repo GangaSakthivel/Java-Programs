@@ -31,10 +31,21 @@ public class Three {
 
         //post increment
         //pre increment
-        int a = 5;
-        System.out.println(++a); //pre increment becomes 6
-        System.out.println(a++); //post increment becomes 6
-        System.out.println(a); // then becomes 7
+//        int a = 5;
+//        System.out.println(++a); //pre increment becomes 6
+//        System.out.println(a++); //post increment becomes 6
+//        System.out.println(a); // then becomes 7
+
+        //Unary minus (-)
+        //unary plus (+)
+
+//        int a = +10;
+//        System.out.println(a);
+//        int b = -10;
+//        System.out.println(b);
+
+
+
 
 
     }
