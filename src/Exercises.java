@@ -31,11 +31,44 @@ public class Exercises {
         }
     }
 
+//    Write a Java program to print numbers from 1 to 50, but:
+//
+//            ✅ Skip numbers that are divisible by 2 and 5 (both)
+//            ✅ Stop the loop when you reach 45
+
+    public static void three(){
+        for(int i = 1; i <= 50; i++){
+            if(i % 2 == 0 || i % 5 ==0){
+                continue;
+            } else if (i > 45) {
+                break;
+                
+            }
+            System.out.println(i);
+        }
+    }
+
+//    Write a Java program to:
+//
+//            ✅ Print numbers from 1 to 20
+//            ✅ Skip numbers that are either odd or divisible by 4
+
+    public static void four(){
+        for(int i = 1; i <= 20; i++){
+            if(i % 2 != 0 || i % 4 == 0) {
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+
 
 
     public static void main(String[] args) {
         //one();
-        two();
+        //two();
+        //three();
+        four();
 
     }
 }
