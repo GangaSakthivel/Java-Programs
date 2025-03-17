@@ -3,37 +3,31 @@ package PracticedPrograms;
 import java.util.Scanner;
 
 public class methodTwo {
-    //take input of two numbers and print the sum
-    static void sum(){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number:");
-        int numberOne = sc.nextInt();
-        System.out.print("Enter the number: ");
-        int numberTwo = sc.nextInt();
-        int sum = numberOne + numberTwo;
-        System.out.println(sum);
-    }
-    static int sumTwo(){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number:");
-        int numberOne = sc.nextInt();
-        System.out.print("Enter the number: ");
-        int numberTwo = sc.nextInt();
-        int sum = numberOne + numberTwo;
-        return sum;
-
-    }
-
-    static int addTwoNum(int a, int b){
-        return a + b;
-
-    }
 
     public static void main(String[] args) {
-        sum();
-        System.out.println(addTwoNum(14, 12));
-        int sum = sumTwo();
-        System.out.println(sum);
+        System.out.println(rectAngle(154, 30));
+        System.out.println(findMax(3, 4 , 5));
+        System.out.println(isEven(40));
+        System.out.println(reverse("ganga"));
+
 
     }
+
+    public static int rectAngle(int height, int width){
+        return height * width;
+    }
+
+    public static int findMax(int a, int b, int c){
+        return Math.max(a, Math.max(b, c));
+    }
+
+    public static boolean isEven(int num){
+        return num % 2 == 0;
+    }
+
+    public static String reverse(String str){
+        return new StringBuilder(str).reverse().toString();
+
+    }
+
 }
