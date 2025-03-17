@@ -27,10 +27,22 @@ public class VariableWorkout {
         int rounderTemp = (int) temperature;
         System.out.println(rounderTemp);
 
-
-
+        //1️⃣ Store your weight (in float).
+        float weight = 57.5f;
+        //2️⃣ Store your height (in double).
+        double height = 154.67;
+        //3️⃣ Store your age in byte.
+        byte ageTwo = 23;
+        //4️⃣ Store your marks in short.
+        short marks = 100;
+        //5️⃣ Store your mobile number in long.
+        long mobileNumber = 1234567891;
+        //6️⃣ Print all the values.
+        System.out.println("Weight: " + weight);
+        System.out.println("Height: " + height);
+        System.out.println("Age: " + ageTwo);
+        System.out.println("Marks: " + marks);
+        System.out.println("Mobile Number: " + mobileNumber);
     }
-
-
 
 }
