@@ -2,7 +2,7 @@ package basicPrograms.OppsConcept;
 
 public class House {
     //Attributes or variable
-    int rooms;
+    int rooms = 5;
     String color;
     String typeOfDoor;
 
@@ -33,6 +33,9 @@ public class House {
         house1.showDetails();
         System.out.println("========================");
         house2.showDetails();
+
+        House obj = new House();
+        System.out.println(obj.rooms);
 
 
     }
