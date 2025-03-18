@@ -81,6 +81,16 @@ public class JavaLoops {
             System.out.println("Exit");
     }
 
+    public static void doWhileFour(){
+
+                int i = 10;
+
+                do {
+                    System.out.println("This will print at least once!");
+                } while (i < 5); // Condition is false, but it still runs once
+            }
+
+
     public static void main(String[] args) {
         //whileLoop();
         //whileLoopOne();
@@ -88,6 +98,9 @@ public class JavaLoops {
         //forLoop();
         //doWhie();
         //doWhileTwo();
-        doWhileThree();
+        doWhileFour();
+        //doWhileThree();
+
+        //✅ Condition is checked first → If false, the loop never runs.
     }
 }
