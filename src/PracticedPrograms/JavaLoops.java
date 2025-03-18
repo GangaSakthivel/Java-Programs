@@ -38,11 +38,56 @@ public class JavaLoops {
 
     }
 
+    public static void forLoop(){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("entert the number: ");
+        int number = sc.nextInt();
+        for(int i = 1; i<= number; i++){
+            System.out.println(i);
+        }
+    }
+
+    public static void doWhie(){
+        int i = 1;
+        do{
+            System.out.println(i);
+            i++;
+        }while(i <= 10);
+    }
+
+    public static void doWhileTwo(){
+        int i = 4;
+        do{
+            System.out.println("4 x" + i + " = " + i);
+            i+=4;
+        }while (i <= 40);
+    }
+
+    public static void doWhileThree(){
+        Scanner sc = new Scanner(System.in);
+        int number;
+
+        do{
+            System.out.print("Enter a number greater than 0 (or enter 0 to stop): ");
+            number = sc.nextInt();
+            if(number > 0){
+                System.out.println("You entered. ");
+            }else if (number < 0){
+                System.out.println("Try again");
+
+            }
+        }while(number < 0);
+
+            System.out.println("Exit");
+    }
 
     public static void main(String[] args) {
         //whileLoop();
         //whileLoopOne();
-        whileLoopTwo();
-
+        //whileLoopTwo();
+        //forLoop();
+        //doWhie();
+        //doWhileTwo();
+        doWhileThree();
     }
 }
