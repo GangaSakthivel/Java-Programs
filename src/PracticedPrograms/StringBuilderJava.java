@@ -1,5 +1,6 @@
 package PracticedPrograms;
 import java.lang.*;
+import java.util.Scanner;
 
 public class StringBuilderJava {
 
@@ -41,7 +42,17 @@ public class StringBuilderJava {
         //Remove characters until index 4 (but not including index 4)
         //End at index 3 → 'd' ✅ (will be removed)
         //Index 4 ('e') remains ❌ (NOT removed)
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter input");
+        String input = sc.nextLine();
+        StringBuilder sbs = new StringBuilder(input);
+        sb.reverse();
+        System.out.println(sbs);
 
+        String name = "programming";
+        for(int i = 0; i < name.length(); i++){
+            System.out.println(name.charAt(i));
+        }
 
 
 
