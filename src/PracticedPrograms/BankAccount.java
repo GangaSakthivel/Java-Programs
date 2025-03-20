@@ -16,7 +16,11 @@ public class BankAccount {
     }
 
     void displayDetails(){
-        System.out.println("Accoung Number: " + accountNumber + "\n" + "Account holder name: " + "\n" + "Balance" + balance);
+        System.out.println("Accoung Number: " + accountNumber);
+        System.out.println("Account holder name: " + accountHolderName);
+        System.out.println("Balance: " + balance);
+        System.out.println("------------------------------------------");
+
     }
 
     public static void main(String[] args) {

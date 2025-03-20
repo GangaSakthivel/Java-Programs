@@ -4,18 +4,17 @@ import java.util.Scanner;
 
 public class Basic {
         public static void main(String[] args) {
-                Scanner sc = new Scanner(System.in);
-                System.out.println("Enter input");
-                String input = sc.nextLine();
-                StringBuilder sb = new StringBuilder(input);
-                sb.reverse();
-                System.out.println(sb);
+              String name = "ganga";
+              String nameTwo = "Ganga";
+                System.out.println(name == nameTwo);
 
-                String name = "programming";
-                for(int i = 0; i < name.length(); i++){
-                        System.out.println(name.charAt(i));
-                }
+                String str1 = new String("Ganga");
+                String str2 = new String("Ganga");
+                System.out.println(str1.equals(str2));
 
+                String str3 = new String("Ganga").intern();
+                System.out.println(nameTwo == str3);
+                
 
 
         }
