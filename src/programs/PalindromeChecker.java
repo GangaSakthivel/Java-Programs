@@ -1,5 +1,7 @@
 package programs;
 
+import PracticedPrograms.Basic;
+
 import java.util.Scanner;
 
 public class PalindromeChecker {
@@ -67,15 +69,68 @@ public class PalindromeChecker {
         if (userPin != correctPin) {
             System.out.println("Too many failed attempts. Account locked.");
         }
+}
 
+        public static void maxOfTwo(){
+        Scanner sc = new Scanner(System.in);
+            System.out.print("Enter the numbers: ");
+            int a = sc.nextInt();
+                    int b = sc.nextInt();
+                    int c = sc.nextInt();
+            int maxNumber = Math.max(a, Math.max(b, c));
+            System.out.println(maxNumber);
 
 }
+
+    public static void OddEven(){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int number = sc.nextInt();
+        switch (number % 2){
+            case 0:
+                System.out.println("Even. ");
+                break;
+            case 1:
+                System.out.println("Odd");
+                break;
+            default:
+                System.out.println("Invalid input.");
+
+        }
+    }
 
     public static void main(String[] args) {
         //isPalindrome();
         //controlFlowWitch();
-        ATMpinverification();
+        //ATMpinverification();
+        //maxOfTwo();
+        OddEven();
+
+
 
 
     }
 }
+
+
+//    int x = 10;
+//    static int y = 20;
+//    public void number(){
+//        System.out.println(x);
+//    }
+//
+//    public static void two(){
+//        System.out.println(y);
+//        //System.out.println(x);
+//    }
+//
+//
+//
+//    public static void main(String[] args) {
+//        Basic obj = new Basic();
+//        obj.number();
+//        System.out.println(obj.x);
+//        two();
+//
+//        System.out.println(Basic.y);//static method can be accessed through class name
+//

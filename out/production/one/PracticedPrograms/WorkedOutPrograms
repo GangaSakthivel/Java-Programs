@@ -1,0 +1,17 @@
+post and pre increment
+
+int a = 5;
+System.out.println(a);// 5
+int b = a++;// 6
+System.out.println(b); //6
+System.out.println(a++); //6
+
+int a = 5;
+//                int b = a++;
+//                System.out.println("a: " + a);
+//                System.out.println("b: " + b);
+
+                int e = 10;
+                int r = e++;
+                System.out.println(e++);
+                System.out.println(r);
