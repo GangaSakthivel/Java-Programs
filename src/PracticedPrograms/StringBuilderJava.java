@@ -5,9 +5,9 @@ public class StringBuilderJava {
 
 
     public static void main(String[] args) {
-//        StringBuilder sbTwo = new StringBuilder();
-//        sbTwo.append("Java");
-//        System.out.println(sbTwo);//if string is empty we can use append to assign a value for that
+        StringBuilder sbTwo = new StringBuilder();
+        sbTwo.append("Java");
+        System.out.println(sbTwo);//if string is empty we can use append to assign a value for that
 
         StringBuilder sb = new StringBuilder("Language ");
         System.out.println(sb);
@@ -32,6 +32,16 @@ public class StringBuilderJava {
         //Convert the StringBuilder to a String
         String result = sb.toString();
         System.out.println(result);
+
+        //StringBuilder sb = new StringBuilder("abcdef"); //abcdef 01C345
+        sb.delete(2, 4);
+        System.out.println(sb);
+
+        //Start at index 2 → 'c' ✅ (will be removed)
+        //Remove characters until index 4 (but not including index 4)
+        //End at index 3 → 'd' ✅ (will be removed)
+        //Index 4 ('e') remains ❌ (NOT removed)
+
 
 
 
