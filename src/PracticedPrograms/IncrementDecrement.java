@@ -26,7 +26,7 @@ public class IncrementDecrement {
         System.out.println(z++);
         System.out.println(z);
 
-        int a = 5;
+        //int a = 5;
         System.out.println(a++);
         System.out.println(a);
 
@@ -43,13 +43,13 @@ public class IncrementDecrement {
         System.out.println("(Then decreases it) Post Decrement: " + n);//9
         System.out.println("Pre decrement" + --n);//9 the actual value directly decreses it
 
-        int x = 7;
+        //int x = 7;
 
         System.out.println(x--); //7 uses the value then decrements 6
         System.out.println(--x); // 6 actual value 5
         System.out.println(x);   //5
 //
-        int a = 10;
+        //int a = 10;
 
         System.out.println(--a); // Line 1 //9 a becomes 9
         System.out.println(a--); // Line 2 //9 uses the value and prints (then becomes 8)
