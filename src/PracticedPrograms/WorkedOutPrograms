@@ -15,3 +15,23 @@ int a = 5;
                 int r = e++;
                 System.out.println(e++);
                 System.out.println(r);
+
+String str = "100";
+        int num = Integer.parseInt(str);
+        System.out.println(num);
+
+        String strTwo = "677.342332";
+        double doubleTwo = Double.parseDouble(strTwo);
+        System.out.println(strTwo);
+
+    }
+
+//    int num;
+//    String name;
+//    char ch;
+//    static int numTwo;
+//
+//        public static void main(String[] args) {
+//            int num = 10;
+//            String result= (num % 2 == 0) ? "Even":"Odd";
+//            System.out.println(result);

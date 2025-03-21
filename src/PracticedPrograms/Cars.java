@@ -4,7 +4,6 @@ package PracticedPrograms;
 
 public class Cars {
 
-
     //Constructor here
     Cars(){ //default constructor
         System.out.println("This is default constructor. ");

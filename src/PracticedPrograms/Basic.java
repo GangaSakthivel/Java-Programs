@@ -3,23 +3,29 @@ package PracticedPrograms;
 import java.util.Scanner;
 
 public class Basic {
-        public static void main(String[] args) {
-              Scanner sc = new Scanner(System.in);
-            System.out.print("Enter the String to be reversed:");
-            String input = sc.nextLine();
-            int vowelCount = 0;
-            input = input.toLowerCase();
-            for(int i = 0; i < input.length(); i++){
-                char ch = input.charAt(i);
-                if(ch == 'i' || ch == 'o' || ch == 'u' || ch == 'a' || ch == 'e'){
-                    vowelCount++;
-                }
-                System.out.print("Count of vowels: " + vowelCount);
 
-            }
-        }
+
+    public static int add(int num1, int num2){
+        return num1 + num2;
+
+    }
+
+    public static float product(float num1, float num2, int num3){
+        return num1 * num2 * num3;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(add(10,10));
+        System.out.println(product(1.2F, 3.4f, 5));
+
+
+    }
+
+
 
 }
+
+
 
 
 
