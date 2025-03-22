@@ -25,6 +25,18 @@ public class JavaArray {
         names = new int[10]; //initialization
         // this is where actual memory is created in the heap memory
 
+        int[] age = new int[10];
+        age[1] = 34;
+        System.out.println(age[1]);
+        age[0] = 21;
+        System.out.println(age[0]);
+        age[0] = 23;
+        System.out.println(age[0]);
+        System.out.println(age.length);
+
+        //type 1 declaration
+        int[] marks = new int[10];
+        int gcpa[] = new int[10];
 
 
 
