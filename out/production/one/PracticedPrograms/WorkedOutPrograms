@@ -55,3 +55,21 @@ Scanner sc = new Scanner(System.in);
         System.out.println(num2);
 
         // Unboxing: Converting Integer to int
+
+
+ for(int i = 0; i <= 10; i++){
+            System.out.print(i + " ");
+            for(int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        Scanner sc = new Scanner(System.in);
+                System.out.println("Enter the starting point: ");
+                int start = sc.nextInt();
+                System.out.println("Enter the ending point: ");
+                int ending = sc.nextInt();
+                for(int i = start; i <= ending; i++){
+                    System.out.println(i);
+                }
