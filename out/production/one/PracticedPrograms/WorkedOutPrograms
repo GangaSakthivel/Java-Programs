@@ -73,3 +73,6 @@ Scanner sc = new Scanner(System.in);
                 for(int i = start; i <= ending; i++){
                     System.out.println(i);
                 }
+
+
+
