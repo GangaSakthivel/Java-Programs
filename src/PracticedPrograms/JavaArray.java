@@ -40,5 +40,19 @@ public class JavaArray {
 
 
 
+        //initializing an array
+        String[] namesList = {"Ganga", "Sakthivel", "vino", "Anu", "Mythily", "Shreya"};
+        System.out.println(namesList);
+        System.out.println(namesList[2] + namesList[3]);
+        namesList[2] = "Vikash";
+        System.out.println(namesList[2]);
+        System.out.println(namesList.length);
+        for(int i = 0; i < namesList.length; i++){
+            System.out.println(namesList[i]);
+        }
+
+
+
+
     }
 }
